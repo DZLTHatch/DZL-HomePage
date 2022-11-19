@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Dazzler</title>
+    <link rel="icon" href="../images/dzlblack.png">
+</head>
+
+<body>
+    <div class="full-screen">
+        <div class="navbar">
+            <a href="#"><img src="../images/dancingShark.gif" alt="Dazzler Logo" class="logo" /></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Dazzler </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, rerum. Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Enim, autem?</p>
+            <div>
+                <a href="../HTML/blog.html"><button><span></span>Blog</button></a>
+                <a href="../HTML/about.html"><button><span></span>About</button></a>
+                <a href="../HTML/contact.html"><button><span></span>Contact</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="blog" id="blog">
+        <h2>How We Grind</h2>
+        <div class="blog-content">
+            <div class="work bc">
+                <a href="../HTML/blog.html">
+                    <img src="http://127.0.0.1:5500/images/wine-g7bdd46b3d_1280.jpg" alt="">
+                    <div class="blog-des">
+                        <p>We play hard! Why? Because we need to enjoy oourselves and this wonderful life!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="play bc">
+                <a href="../HTML/blog.html">
+                    <img src="http://127.0.0.1:5500/images/interior-design-g9529861dc_1280.jpg" alt="">
+                    <div class="blog-des">
+                        <p>We work hard! The Dazzler environment is built for having fun and collaborators!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="colaborate bc">
+                <a href="../HTML/blog.html">
+                    <img src="http://127.0.0.1:5500/images/teamwork-g04a9eddf7_640.jpg" alt="">
+                    <div class="blog-des">
+                        <p>We collaborate with each other, sharing and developing ideas to make a mark in history.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <h2>What We Do</h2>
+        <div class="about-container">
+            <div class="col-1">
+                <img src="../images/blackhoodie.jpg" alt="Blackhoodie Picture">
+            </div>
+            <div class="col-2">
+                <div class="abt-navbar">
+                    <ul>
+                        <li>
+                            <p id="s-tab" class="tab-links active-link" onclick="opentab('skills'), activeTab('s-tab')">
+                                Skills</p>
+                        </li>
+                        <li>
+                            <p id='t-tab' class="tab-links" onclick="opentab('time'), activeTab('t-tab')">Time</p>
+                        </li>
+                        <li>
+                            <p id='p-tab' class="tab-links" onclick="opentab('projects'), activeTab('p-tab')">Projects
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <a href="../HTML/about.html">
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="time">
+                        <ul>
+                            <li><span>2022 - Current</span><br>AP Computer Science at West Campus</li>
+                            <li><span>2019 - 2021</span><br>Web Development</li>
+                            <li><span>2018</span><br>Building Games with Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><span>2022</span><br>West Campus AP Computer Science Student</li>
+                            <li><span>2021</span><br>Self-taught Web Development</li>
+                            <li><span>2020</span><br>Self-taught Web Designing</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Reach Us</h2>
+        <a href="../HTML/contact.html">
+            <div class="address"> 1234 Dazzler Ave., Carmichael, CA 95841</div>
+        </a>
+        <div class="contact-div">
+            <div class='contact-main'>
+                <div class="contact-form">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="fName" id="fName" placeholder="First name" required>
+                        <input type="text" name="lName" id="lName" placeholder="Last name">
+                        <input type="email" name="em" id="em" placeholder="Email" required>
+                        <input type="text" name="message" id="message" placeholder="Your message">
+                        <div class="contact-btn">
+                            <button>Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Created with pleasure. All rights reserved by the &copy; Dazzler Organization</p>
+    </div>
+    <script src="../Javascript/index.js"></script>
+</body>
+
+</html>

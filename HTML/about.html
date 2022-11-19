@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dazzler About</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="icon" href="../images/dzlblack.png">
+</head>
+
+<body>
+    <div class="full-screen">
+        <div class="navbar">
+            <a href="../HTML/index.html"><img src="../images/dancingShark.gif" alt="Dazzler Logo" class="logo" /></a>
+            <ul>
+                <li><a href="../HTML/index.html">Home</a></li>
+                <li><a href="../HTML/index.html#blog">Blog</a></li>
+                <li><a href="../HTML/index.html#about">About</a></li>
+                <li><a href="../HTML/index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="about-page-content">
+        <div class="abt-col-1">
+            <p class="col-1-hook">The most generic</p>
+            <h1>Dazzler Organization</h1>
+            <p class="col-1-des">A technology organization that runs with a hundred percent effort to develop carbon
+                free products. All Dazzler processes are carbon free and uses resuable energy sources like
+                hydroelectricity and solar power. </p>
+            <a href="#about" class="col-1-detail-link">
+                <p class="col-1-detail"> &#8594; detail</p>
+            </a>
+            <!-- position: absolute; left: 0; bottom: 0; -->
+            <div class="vision-div">
+                <img src="../images/wp2841655-cool-pc-wallpapers.jpg" alt="">
+                <div style="position: absolute; left: calc(25px + 55px); top: 45%; width: 30%; height: 3px;
+                background: white;"></div>
+                <p>Our vision</p>
+            </div>
+        </div>
+        <div class="abt-col-2">
+        </div>
+    </div>
+    <div class="about abt-design" id="about">
+        <h2>What We Do</h2>
+        <div class="about-container">
+            <div class="col-1">
+                <img src="../images/blackhoodie.jpg" alt="Blackhoodie Picture">
+            </div>
+            <div class="col-2">
+                <div class="abt-navbar">
+                    <ul>
+                        <li>
+                            <p id="s-tab" class="tab-links active-link" onclick="opentab('skills'), activeTab('s-tab')">
+                                Skills</p>
+                        </li>
+                        <li>
+                            <p id='t-tab' class="tab-links" onclick="opentab('time'), activeTab('t-tab')">Time</p>
+                        </li>
+                        <li>
+                            <p id='p-tab' class="tab-links" onclick="opentab('projects'), activeTab('p-tab')">Projects
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces - Personal websites, portfolio websites, interactive interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development - Simple AI for basic functions like autoscrolling and weather reporting</li>
+                        <li><span>App Development</span><br>Building Android/IOS apps - Coming Soon</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="time">
+                    <ul>
+                        <li><span>2022 - Current</span><br>AP Computer Science at West Campus - Learn programming w/ Javascript, Java, and Python</li>
+                        <li><span>2019 - 2021</span><br>Web Development - Design breathtaking and responsive websites</li>
+                        <li><span>2018</span><br>Building Games with Python - Spaceship shooter and snake game</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>2022</span><br>West Campus AP Computer Science Student - Solar Panels that absorb 100x as much as solorr power as ordinary panels; space panels.</li>
+                        <li><span>2021</span><br>Self-taught Web Development - None</li>
+                        <li><span>2020</span><br>Self-taught Web Designing - None</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="../HTML/index.html#about">
+        <div class="contact-btn">
+            <button>Return to About</button>
+        </div>
+    </a>
+    <div class="copyright" style="margin-top: 36px;">
+        <p>Created with pleasure. All rights reserved by the &copy; Dazzler Organization</p>
+    </div>
+    <script src="../Javascript/index.js"></script>
+</body>
+
+</html>
